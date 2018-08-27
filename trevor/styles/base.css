@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    width: 400px;
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    margin-top: 20%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+select {
+    width: 80%;
+    margin-bottom: 10%;
+    position: relative;
+}
+#one, #three, #five {
+    background-color: grey;
+}
+
+#two, #four {
+    background-color: lightgrey;
+}
+/* arrow up */
+.sprite {
+    background: url('../images/form-elements-sprite.png') no-repeat -1035px -280px;
+    width: 77px;
+    height: 77px;
+}
+
+.checkbox-div {
+    /* position: relative; */
+    display: block;
+}
+
+.radio-div {
+    /* position: absolute; */
+    /* display: block; */
+}
+
+/* unchecked */
+.sprite-unchecked {
+    background: url('../images/form-elements-sprite.png') no-repeat -158px -239px;
+    border: 1px solid sienna;
+    width: 161px;
+    height: 160px;
+    transform: scale(0.35);
+    /* position: relative; */
+    /* display: block; */
+}
+
+
+/* checked */
+.sprite-checked {
+    background: url('../images/form-elements-sprite.png') no-repeat -381px -239px;
+    width: 161px;
+    height: 160px;
+    transform: scale(0.35);
+}
+
+/* radio unchecked */
+.sprite-radio-uncheck {
+    background: url('../images/form-elements-sprite.png') no-repeat -582px -242px;
+    width: 167px;
+    height: 166px;
+    transform: scale(0.25);
+}
+
+/* radio checked */
+.sprite-radio-check {
+    background: url('../images/form-elements-sprite.png') no-repeat -812px -242px;
+    width: 168px;
+    height: 166px;
+    transform: scale(0.25);
+}
+
+
+button {
+    padding: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+}
+
+footer {
+    margin-top: 15%;
+}
+

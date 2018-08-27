@@ -1,21 +1,72 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UI Challenge</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <title>UI Challenge 02</title>
 </head>
+
 <body>
     <header>
 
     </header>
     <main>
+        <form action="">
+            <label for="">text input</label>
+            <br>
+            <input type="text" id = "text-field1" placeholder="placeholder text">
+            <br>
+            <label for="">text input w/ validation error</label>
+            <br>
+            <input type="text" id = "text-field2" placeholder="placeholder text" name="username" required>
+            <br>
+            <label for="">select box</label>
+            <br>
+            <select name="" id="closed"></select>
+            <br>
+            <label for="">select box - open</label>
+            <br>
+            <select name="" id="open" placeholder = "please select an option">
+                <option value="option1" id="one">option 1</option>
+                <option value="option2" id="two">option 2</option>
+                <option value="option3" id="three">option 3</option>
+                <option value="option4" id="four">option 4</option>
+                <option value="option5" id="five">option 5</option>
+            </select>
+
+            <br>
+            <label for="">checkbox</label>
+            <div class = "checkbox-div">
+                <div class="sprite-unchecked" id="unchecked"></div>
+                <div id="checked" class="sprite-checked"></div>
+            </div>
+           
+
+            <br>
+            <label for="">radio</label>
+            <div class = "radio-div">
+                <div id="radio-uncheck" class="sprite-radio-uncheck"></div>
+                <div id="radio-check" class="sprite-radio-check"></div>
+            </div>
+            
+
+            <br>
+            <label for="">buttons</label>
+            <br>
+            <button type="submit">submit</button>
+            <button type="submit" id="black">submit</button>
+
+        </form>
+
 
     </main>
     <footer>
-        
+
     </footer>
-    
+
 </body>
+
 </html>
